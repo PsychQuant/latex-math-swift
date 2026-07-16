@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "LaTeXMathSwift", targets: ["LaTeXMathSwift"])
     ],
     dependencies: [
-        .package(url: "https://github.com/PsychQuant/ooxml-swift.git", from: "0.11.0")
+        .package(url: "https://github.com/PsychQuant/ooxml-swift.git", from: "1.4.0")
     ],
     targets: [
         .target(
